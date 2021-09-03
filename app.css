@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    
+
+}
+.c-navbar{
+    height: 80px;
+    padding: 1em;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+.i-nav{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 100%;
+    display: flex;
+
+}
+.logo img{
+    height:100%;
+}
+.search{
+    border: 1px solid grey;
+    display: flex;
+    border-radius: 15px;
+    height: 80%;
+}
+.search input{
+    border: none;
+    border-radius: 20px;
+    padding: 1em;
+    outline: 1px solid lightgrey;
+    outline-style: initial;
+}
+.search button{
+    border: none;
+    background-color: transparent;
+}
+
+.each-poke{
+    width: 300px;
+    height: 200px;
+    margin: 1.5rem;  
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    background-color: #e9ecef;
+}
+.each-poke:hover{
+    transform:scale(1.05);
+    cursor:pointer;
+    transition:0.5s;
+}
+.poke-inner-div{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.poke-inner-div img{
+    width: 50%;
+    height: 100%;
+}
+.fake-modal-button{
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    outline: none;
+    padding: 0;
+}
+.fake-modal-button:hover{
+    color: darkblue;
+
+}
+.pokemons
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5%;
+}
+.d-none{
+    display: none;
+
+}
+.brand-name{
+    color:white !important;
+}
+.no{
+    position: absolute;
+    top: -20%;
+    left: -6%;
+    font-size: 3rem;
+    color: darkgray;
+
+
+}
+.srch-button{
+    color: white;
+}
+.poke-name{
+    display: flex;
+    flex-direction: column;
+}
+.poke-name span{
+    font-size: large;
+    font-weight: 600;
+}
+.poke-name button{
+    margin: 1em 0em;
+}
+.modal-title{
+    font-weight: 800;
+}
+.modal-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.modal-image img{
+    width: 150px;
+    height: 150px;
+}
+.stats ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.modal-header{
+    border-bottom: none;
+}
+.stats ul li{
+    display: flex;
+    width: 100%;
+    padding: 0.5em;
+    text-align: center;
+   
+    justify-content: space-between;
+}
+.stats ul li:nth-of-type(2n){
+    background-color: #cbf3f0;
+}
+.stats ul li:first-child span{
+    font-weight: 600;
+}
+.stats ul li span{
+    width: 33%;
+}
+.stats ul li span:nth-of-type(1){
+    color: #011638;
+}
+.modal-content-body{
+    width: 100%;
+
+}
+.general{
+    display: flex;
+    width: 100%
+    
+
+}
+.general ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.general ul li span{
+    font-weight: bold;
+}
