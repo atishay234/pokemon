@@ -8,6 +8,9 @@ body{
 html{
     overflow-x: hidden;
 }
+
+/* the loading animation */
+
 .load-wrapp{
     margin-bottom: 2em;
 
@@ -46,6 +49,8 @@ html{
     }
   }
   
+
+  /* navbar styles */
 .c-navbar{
     height: 80px;
     padding: 1em;
@@ -68,23 +73,8 @@ html{
 .logo img{
     height:100%;
 }
-.search{
-    border: 1px solid grey;
-    display: flex;
-    border-radius: 15px;
-    height: 80%;
-}
-.search input{
-    border: none;
-    border-radius: 20px;
-    padding: 1em;
-    outline: 1px solid lightgrey;
-    outline-style: initial;
-}
-.search button{
-    border: none;
-    background-color: transparent;
-}
+
+/* each pokemon part */
 
 .each-poke{
     width: 300px;
@@ -114,17 +104,7 @@ html{
     width: 50%;
     height: 100%;
 }
-.fake-modal-button{
-    width: fit-content;
-    height: fit-content;
-    border: none;
-    outline: none;
-    padding: 0;
-}
-.fake-modal-button:hover{
-    color: darkblue;
 
-}
 .pokemons
 {
     display: flex;
@@ -136,9 +116,7 @@ html{
     display: none;
 
 }
-.brand-name{
-    color:white !important;
-}
+
 .no{
     position: absolute;
     top: -10%;
@@ -148,9 +126,7 @@ html{
 
 
 }
-.srch-button{
-    color: white;
-}
+
 .poke-name{
     display: flex;
     flex-direction: column;
@@ -164,6 +140,47 @@ html{
     position: absolute;
     top: -5%;
     right: 5%;
+}
+.abilities{
+    width: 100%;
+    margin-top: 1em;
+    padding: 1em;
+}
+.abilities span{
+    font-weight: 600;
+}
+.abilities ul{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.abilities ul li{
+    background-color: white;
+   
+    width: 40%;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    
+}
+/* bootstrap modal part */
+
+
+.fake-modal-button{
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    outline: none;
+    padding: 0;
+}
+.fake-modal-button:hover{
+    color: darkblue;
+
 }
 .modal-title{
     font-weight: 800;
@@ -223,31 +240,4 @@ html{
 }
 .general ul li span{
     font-weight: bold;
-}
-.abilities{
-    width: 100%;
-    margin-top: 1em;
-    padding: 1em;
-}
-.abilities span{
-    font-weight: 600;
-}
-.abilities ul{
-    width: 100%;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.abilities ul li{
-    background-color: white;
-   
-    width: 40%;
-    height: 50px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1em;
-    
 }
