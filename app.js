@@ -1,7 +1,7 @@
 async function fetchData(){
     
     let data=new Array();
-    for(let i=200;i<300;i++){
+    for(let i=200;i<210;i++){
         let result=await axios.get(`https://pokeapi.co/api/v2/pokemon/${i}`);
         let formattedData=result.data;
         data.push(formattedData)
